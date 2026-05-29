@@ -1,8 +1,9 @@
 "use client";
 
+import React from "react";
 import { useState } from "react";
-import ControlsPanel, { ShapeType } from "../app/components/ControlsPanel";
-import SimulationScene from "../app/components/SimulationScene";
+import ControlsPanel, { ShapeType } from "./components/ControlsPanel";
+import SimulationScene from "./components/SimulationScene";
 
 export default function ShadowSimulation() {
   // This state is the "source of truth" for the entire application
